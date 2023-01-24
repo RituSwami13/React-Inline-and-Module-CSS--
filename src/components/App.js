@@ -9,15 +9,10 @@ const heading ={
   return (
     <div id="main">
       <h1 className="success" >Success</h1>
-      <h1 id='error' >Error</h1>
+      <h1 id='error' style={{fontSize:"50px",color:"red"}}>Error</h1>
     </div>
   )
 }
 
 
 export default App;
-<style>
-  #error{
-     fontSize=50px; 
-    color="red";
-  </style>
